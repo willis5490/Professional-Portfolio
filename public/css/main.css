@@ -1,0 +1,229 @@
+
+html {
+    font-family: 'Cardo', serif;
+    background-color: #EEF3F9
+    
+}
+body{
+    
+}
+
+.uk-card{
+    background-color: #F1F5FA
+}
+/* header */
+
+#headies{
+background-color: #6D8BAA;
+
+} 
+
+
+/* main sections */
+.musicSection{
+    margin-top: 50px;
+}
+
+.bioSection{
+    margin-top: 50px;
+}
+
+.contactSection{
+    margin-top: 50px;
+    padding-bottom: 0px;
+}
+
+/* pictures */
+
+#bio{
+    font-size: 30px;
+}
+.cardPics{
+  max-width: 100%;
+  max-height: 100%
+}
+.contactSection{
+    text-align: center;
+}
+#logoimage{
+    height: 65px;
+    width: 65px;
+}
+
+/* image */
+
+
+/* section Headers */
+
+.sectionHeaders{
+    font-size: 130px;
+    text-align-last: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    color: #C6B15D;
+    text-align: center;
+}
+
+.uk-navbar-center>.uk-navbar-nav>li>a {
+    font-family: 'Monoton', cursive;
+    position: relative;
+    color: #C6B15D;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:hover {
+    color: #C6B15D;
+    font-weight: bold;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    bottom: 28px;
+    left: 12px;
+    background-color: #C6B15D;;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+
+#picture{
+    width: 300px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.portPics{
+    width: 150px;
+    height: 150px;
+}
+.githubPortfolioLink{
+    font-size: 20px;
+}
+
+/* footer */
+
+#footer{
+   height: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #626566;
+    text-align: right;
+}
+
+
+/* button */
+#formSubmit{
+    background-color: #6D8BAA;
+}
+.uk-button{
+    background-color: #6D8BAA;
+    color:white;
+}
+
+#name{
+    margin-left: 40px;
+    color: #C6B15D;
+    font-family: 'Mrs Sheppards', cursive;
+   
+
+}
+.uk-link, a:hover{
+    text-decoration: none;
+}
+
+.uk-navbar-right{
+    margin-right: 40px;
+    color: #C6B15D
+
+}
+.uk-navbar-nav>li.uk-active>a{
+    color: #C6B15D 
+}
+.uk-open>.uk-offcanvas-bar{
+    background-color: #6D8BAA;
+}
+.uk-card-primary.uk-card-body .uk-nav-primary>li>a, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-primary>li>a, .uk-card-secondary.uk-card-body .uk-nav-primary>li>a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-primary>li>a, .uk-light .uk-nav-primary>li>a, .uk-offcanvas-bar .uk-nav-primary>li>a, .uk-overlay-primary .uk-nav-primary>li>a, .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-primary>li>a {
+    color: #C6B15D;
+}
+
+
+/* Mobile Respone */
+@media only screen and (max-width: 480px) {
+
+   .sectionHeaders{
+    font-size: 50px;
+    text-align-last: center;
+   
+   }
+   #bio{
+       font-size: 17px;
+   }
+   #mobile-links{
+    font-size: 10px;
+    padding: 4px;
+    
+}
+
+.uk-navbar-right>.uk-navbar-nav>li>a{
+    padding: 6px;
+
+}
+.uk-navbar-right{
+    margin-right: 0px;
+
+}
+#name{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.uk-navbar-center>.uk-navbar-nav>li>a {
+    font-family: 'Monoton', cursive;
+    position: relative;
+    color: #C6B15D;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:hover {
+    color: #C6B15D;
+    font-weight: bold;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    bottom: 28px;
+    left: 6px;
+    background-color: #C6B15D;;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .uk-navbar-center>.uk-navbar-nav>li>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
