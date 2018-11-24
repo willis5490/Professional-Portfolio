@@ -162,6 +162,10 @@ background-color: #6D8BAA;
 .uk-card-primary.uk-card-body .uk-nav-primary>li>a, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-primary>li>a, .uk-card-secondary.uk-card-body .uk-nav-primary>li>a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-primary>li>a, .uk-light .uk-nav-primary>li>a, .uk-offcanvas-bar .uk-nav-primary>li>a, .uk-overlay-primary .uk-nav-primary>li>a, .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-primary>li>a, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-primary>li>a {
     color: #C6B15D;
 }
+.uk-card-primary.uk-card-body .uk-close, .uk-card-primary>:not([class*=uk-card-media]) .uk-close, .uk-card-secondary.uk-card-body .uk-close, .uk-card-secondary>:not([class*=uk-card-media]) .uk-close, .uk-light .uk-close, .uk-offcanvas-bar .uk-close, .uk-overlay-primary .uk-close, .uk-section-primary:not(.uk-preserve-color) .uk-close, .uk-section-secondary:not(.uk-preserve-color) .uk-close, .uk-tile-primary:not(.uk-preserve-color) .uk-close, .uk-tile-secondary:not(.uk-preserve-color) .uk-close {
+    color: #C6B15D
+}
+
 
 
 /* Mobile Respone */

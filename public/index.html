@@ -75,8 +75,9 @@
     <!-- mobile nav -->
     <div className="uk-hidden@m">
 
-          <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+          <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; flip: true; mode: push; esc-close:true; bg-close:true">
               <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
 
                   <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
                     <li><a href="#about"><span class="uk-margin-small-right" uk-icon="icon: info"></span> About</a></li>
