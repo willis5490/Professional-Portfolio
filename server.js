@@ -31,7 +31,7 @@ app.post('/sendEmail', function(req, res) {
   let Email = JSON.stringify(req.body.email)
   let Name = JSON.stringify(req.body.name)
   let Message = JSON.stringify(req.body.message)
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  sgMail.setApiKey(process.env.setApiKey);
 const msg = {
   to: 'william.stearns303@gmail.com',
   from: Email,
