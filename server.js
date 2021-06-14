@@ -33,13 +33,22 @@ app.post('/sendEmail', function(req, res) {
   let Message = JSON.stringify(req.body.message)
   sgMail.setApiKey(process.env.setApiKey);
 const msg = {
-  to: 'william.stearns303@gmail.com',
-  from: Email,
+  to: "william.stearns303@gmail.com",
+  from: "willysternz@gmail.com",
   subject: Name + "wrote you an email",
   text: Message,
   html: Name + " has a message for you. The message says:   " + Message +". ---- respond to:  " + Email,
 };
-sgMail.send(msg);
+sgMail
+
+.send(msg)
+  .then(() => {
+    console.log('Email sent')
+  })
+  .catch((error) => {
+    console.error(error.response.body)
+  })
+
  
 });
 
