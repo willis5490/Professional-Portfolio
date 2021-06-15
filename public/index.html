@@ -62,7 +62,7 @@
             <div class="uk-navbar-right uk-visible@m">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="https://github.com/willis5490" target="_blank" uk-icon="icon: github-alt"></a></li>
-                    <!-- <li class="uk-active"><a href="https://www.linkedin.com/in/william-stearns-850aa2161/" target="_blank" uk-icon="icon:  linkedin"></a></li> -->
+                    <li class="uk-active"><a href="https://www.linkedin.com/in/william-stearns-303" target="_blank" uk-icon="icon:  linkedin"></a></li>
                 </ul>
             </div>
             <!-- mobile -->
@@ -82,11 +82,11 @@
                     <button class="uk-offcanvas-close" type="button" uk-close></button>
 
                   <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
-                    <li><a href="#about"><span class="uk-margin-small-right" uk-icon="icon: info"></span> About</a></li>
-                    <li><a href="#portfolio"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Portfolio</a></li>
-                    <li><a href="#contact"><span class="uk-margin-small-right" uk-icon="icon:  pencil"></span> Contact</a></li>
-                    <li><a href="https://github.com/willis5490" target="_blank"><span class="uk-margin-small-right" uk-icon="icon:  github-alt"></span> Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/william-stearns-850aa2161/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon:  linkedin"></span> LinkedIn</a></li>
+                    <li><a class="mobileNavLinks" href="#about"><span class="uk-margin-small-right" uk-icon="icon: info"></span> About</a></li>
+                    <li><a class="mobileNavLinks" href="#portfolio"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Portfolio</a></li>
+                    <li><a class="mobileNavLinks" href="#contact"><span class="uk-margin-small-right" uk-icon="icon:  pencil"></span> Contact</a></li>
+                    <li><a class="mobileNavLinks" href="https://github.com/willis5490" target="_blank"><span class="uk-margin-small-right" uk-icon="icon:  github-alt"></span> Github</a></li>
+                    <li><a class="mobileNavLinks" href="https://www.linkedin.com/in/william-stearns-303" target="_blank"><span class="uk-margin-small-right" uk-icon="icon:  linkedin"></span> LinkedIn</a></li>
                   </ul>
 
               </div>
@@ -108,10 +108,12 @@
             <div class="uk-animation-scale-up">
         <div class="uk-container">
             <div class="uk-child-width-1-1@s uk-text-center" uk-grid>
-              <h6 id="bio">Hello! My name is William,  I am a UX designer & full-stack web developer who has been absorbed into the React library.
-                  Having found my passion through web development, I am highly skilled 
-                   in writing well-designed, testable and efficient code using current best practices. Please enjoy my eclectic array of apps I have built for
-                   your pleasure, and feel free to contact me!
+              <h6 id="bio">Hello, My name is William Stearns. 
+                  I am a full-stack web developer with three years of experience developing different stacks. I graduated from Western Governor's University with a B.S in Cyber 
+                  Security and Information Assurance.
+                  Web development is not just a career for me, but also a passion of mine. When I am not working on projects for clients, you will find me working on personal projects.
+                As a developer, I am always striving to create better designed, more 
+                  efficient code. In the event I am not coding, you can find me playing music or snowboarding. Please check out my portfolio section below for examples of my work.
                   
                 </h6>
                 <div id="portfolio"></div>
@@ -129,17 +131,20 @@
         <div class="uk-container">
             <div class="uk-alert-primary" uk-alert>
                 <a class="uk-alert-close " uk-close></a>
-                <h3 class="uk-text-center">These apps are hosted on a free server, so they take a little to load. Thank you for your patience.</h3>
+                <h3 class="uk-text-center">These apps are hosted on a free server, so they take a while to load. Thank you for your patience.</h3>
             </div>
             <div class="uk-child-width-1-2@s uk-text-center uk-grid-match" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body"  uk-parallax=" x:-600,0; viewport: 0.3; media: @m" >
                         <div>
-                            <a href="https://foambeerdb.herokuapp.com/" target="_blank"><img class="portPics" src="./css/images/foam logo.png" alt=""></a>
+                            <a href="https://foamapp.herokuapp.com/" target="_blank"><img class="portPics" src="./css/images/foam logo.png" alt=""></a>
                         </div>
                     <br>
-                       <div> <a href="https://foambeerdb.herokuapp.com/" target="_blank"><h1>Foam</h1></a>           
-                        <p>Built this MySQL database from scratch! Scraping the web for all the data, I built the IMDB of beer.</p></div>
+                       <div> <a href="https://foamapp.herokuapp.com/" target="_blank"><h1>Foam</h1></a>           
+                        <p>This application is designed to search for, and explore beers. If you want to look up beer stats or 
+                            explore new beers, then this app is for you. This app uses Untappd's API, but users can also 
+                             add beers and breweries to the database. Foam's database is built on SQL and utilizes the Knex.js library for 
+                             its functionality. The front end of the app runs on handlebars and the backend runs on node.js/express.</p></div>
                        
                     </div>
                 </div>
@@ -150,7 +155,10 @@
                         </div>
                       <br>
                         <div><a href="https://roomix.herokuapp.com/" target="_blank"><h1>Roomix</h1></a>                   
-                            <p>A roommate app that allows you to search and chat with different users. This React app uses Mongodb, Auth-O, Firebase and UIKit.</p></div>
+                            <p>This application is designed to help people find roomates. It can be hard finding roomates, so I built this 
+                                user friendly app as a solution. This app uses Auth0 for user verification and mongodb to create and maintain user profiles. This is a traditional MERN stack app that utilizes 
+                                Redux for state management. There is also a custom chat function that I built using the mongoose library.
+                            </p></div>
                         
                     </div>
                 </div>
@@ -163,7 +171,7 @@
         <div class="uk-container">
             <div class="uk-alert-primary" uk-alert>
                 <a class="uk-alert-close " uk-close></a>
-                <h3 class="uk-text-center">These apps I built for a designer and have permission to showcase.</h3>
+                <h3 class="uk-text-center">Here are some are apps I built for clients.</h3>
             </div>
             <div class="uk-child-width-1-2@s uk-text-center uk-grid-match" uk-grid>
                 <div>

@@ -124,6 +124,9 @@ background-color: #6D8BAA;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  .mobileNavLinks{
+      color: #E2DFCA !important;
+  }
   
 
 #picture{
